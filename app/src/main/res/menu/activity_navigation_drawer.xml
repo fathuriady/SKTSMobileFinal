@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Beranda"
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"/>
+    <item
+        android:title="Edit Profile"
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/profile"/>
+    <item
+        android:title="Pemberitahuan"
+        android:id="@+id/nav_galery"
+        android:icon="@drawable/notif"/>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:title="Tentang"
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"/>
+            <item
+                android:title="Log Out"
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_exit"/>
+        </menu>
+    </item>
+
+</menu>

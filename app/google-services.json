@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "827620991010",
+    "firebase_url": "https://testfirebase-b7b3a.firebaseio.com",
+    "project_id": "testfirebase-b7b3a",
+    "storage_bucket": "testfirebase-b7b3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827620991010:android:01c27bcd2d863fd3",
+        "android_client_info": {
+          "package_name": "team.dev.bm.sktsmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827620991010-jte2acvaetpqhk8tl6opsutrk3j0vai4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8YkqLLzV6ZVRqxSz77NzBREQuH0Yjma0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,137 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/container"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector"
+                android:layout_weight="21.60">
+
+            <TableRow>
+            <TextView
+                android:text="Domisili Tujuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/domisili"
+                android:layout_height="wrap_content"
+                android:layout_width="180dp"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Upload KTP "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                />
+            <!--<Button android:text="Upload KTP"-->
+                <!--android:id="@+id/uploadktp"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@drawable/animation_list"-->
+                <!--android:textColor="#fff"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_column="1"/>-->
+            <Button
+                android:id="@+id/btn_pilih"
+                android:text="UPLOAD KTP"
+                android:textColor="#FFFFFF"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#141B4D"
+                android:layout_marginTop="10dp"/>
+
+
+
+            <ImageView
+                android:id="@+id/img_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Upload KK "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                />
+
+
+            <Button android:text="Upload KK"
+                android:id="@+id/btn_pilih1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#141B4D"
+                android:textColor="#fff"
+                android:layout_marginTop="5dp"
+                android:layout_column="1">
+            </Button>
+
+            <ImageView
+                android:id="@+id/img_set1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text=""
+                android:id="@+id/error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button android:text="K I R I M"
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/animation_list"
+                android:textColor="#fff"
+                android:layout_column="1">
+            </Button>
+        </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

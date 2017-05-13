@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector"
+        >
+
+
+        <TextView
+            android:text="Lengkapi Data Diri Sesuai KTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:paddingTop="5dp"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TableRow android:baselineAligned="true" android:layout_width="match_parent">
+            <TextView
+                android:text="NIK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+
+
+            <EditText android:id="@+id/edttxtNIK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="14">
+            </EditText>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Nama Lengkap "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textColor="#000000"
+                android:textSize="12dp"
+                />
+
+            <EditText android:id="@+id/edttxtNamaL"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical">
+            </EditText>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView android:text="Jenis Kelamin "
+                android:textColor="#000000"
+                android:textSize="12dp"/>
+
+            <RadioGroup android:id="@+id/rgJK">
+                <RadioButton android:id="@+id/rbPria"
+                    android:text="Pria"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    />
+                <RadioButton android:id="@+id/rbPerempuan"
+                    android:text="Perempuan"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    />
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="TTL "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="12dp"
+                />
+
+
+            <EditText android:layout_height="wrap_content"
+                android:id="@+id/edttxtTTL"
+                android:hint="Jakarta,29 April 1996"
+                android:layout_width="match_parent">
+            </EditText>
+        </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:text="Pekerjaan "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="12dp"
+                />
+
+
+            <EditText android:layout_height="wrap_content"
+                android:id="@+id/edttxtPekerjaan"
+                android:layout_width="match_parent">
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Kewarganegaran "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="12dp"
+                />
+
+
+            <EditText android:layout_height="wrap_content"
+                android:id="@+id/edttxtKwn"
+                android:layout_width="match_parent">
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Status "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="12dp"
+                />
+
+
+            <EditText android:layout_height="wrap_content"
+                android:id="@+id/edttxtStatus"
+                android:layout_width="match_parent">
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Agama "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="12dp"
+                />
+
+
+            <EditText android:layout_height="wrap_content"
+                android:id="@+id/edttxtAgama"
+                android:layout_width="match_parent">
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Alamat "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="12dp"
+                />
+
+
+            <EditText android:layout_height="wrap_content"
+                android:id="@+id/edttxtAlamat"
+                android:layout_width="match_parent">
+            </EditText>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+
+            <EditText
+                android:id="@+id/edttxtRt"
+                android:layout_width="5dp"
+                android:hint="RT/RW"
+                android:layout_height="wrap_content">
+
+            </EditText>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+
+            <EditText
+                android:id="@+id/edttxtKel"
+                android:layout_width="5dp"
+                android:hint="Kelurahan"
+                android:layout_height="wrap_content"></EditText>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+
+            <EditText
+                android:id="@+id/edttxtKec"
+                android:layout_width="5dp"
+                android:hint="Kecamatan"
+                android:layout_height="wrap_content"></EditText>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button android:text="S I M P A N"
+                android:textColor="#ffffff"
+                android:id="@+id/btnSimpan"
+                android:layout_width="wrap_content"
+                android:background="@drawable/animation_list"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_below="@+id/edttxtKec"
+                android:layout_column="1">
+            </Button>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text=""
+                android:id="@+id/error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_gravity="center_vertical" />
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

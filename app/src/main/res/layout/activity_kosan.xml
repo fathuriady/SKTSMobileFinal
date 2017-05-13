@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/container"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:background="@drawable/selector"
+            android:layout_weight="21.60">
+
+
+        <TextView
+            android:text="Silakan Masukkan Data Tempat Tinggal"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <TableRow android:baselineAligned="true"
+            android:layout_width="match_parent"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:text="Tempat Tinggal "
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+
+            <RadioGroup android:id="@+id/TT">
+                <RadioButton
+                    android:id="@+id/kosan"
+                    android:text="Kosan"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    />
+                <RadioButton android:id="@+id/appart"
+                    android:text="Apartement"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    />
+            </RadioGroup>
+        </TableRow>
+
+            <TableRow android:baselineAligned="true" android:layout_width="match_parent">
+                <TextView
+                    android:text="ALamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+
+
+                <EditText android:id="@+id/edttxtAlamatTT"
+                    android:layout_height="wrap_content"
+                    android:layout_width="180dp"
+                    android:layout_gravity="center_vertical" >
+                </EditText>
+            </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:text="Nama Wali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:id="@+id/txtNamaW"
+                />
+
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:id="@+id/edttxtNamaW"
+                android:layout_width="10dp">
+            </EditText>
+        </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:text="NIK "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:id="@+id/txtNIKW"
+                />
+
+
+            <EditText android:layout_height="wrap_content"
+                android:id="@+id/edttxtNIKW"
+                android:layout_width="11dp"
+                android:inputType="number">
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Alamat Wali "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:id="@+id/txtAlamatW"
+                />
+
+
+            <EditText android:layout_height="wrap_content"
+                android:id="@+id/edttxtAlamatW"
+                android:layout_width="10dp">
+            </EditText>
+        </TableRow>
+
+
+
+        <TableRow >
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text=""
+                android:id="@+id/error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button android:text="K I R I M"
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/animation_list"
+                android:textColor="#fff"
+                android:layout_column="1">
+            </Button>
+        </TableRow>
+
+        </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

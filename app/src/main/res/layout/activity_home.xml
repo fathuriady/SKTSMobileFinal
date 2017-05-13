@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="test"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Selamat Datang di SKTS Mobile.\n Aplikasi ini akan membantu anda dalam pembuatan Surat Keteragan Tinggal Sementara dan Surat Keterangan Pindah di Kota Depok. Silahkan pilih jenis surat yang ingin anda buat."
+        android:layout_below="@+id/txtNama"
+        android:layout_above="@+id/txtSkts"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_marginBottom="75dp" />
+
+    <Button
+        android:id="@+id/btnSKTS"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="#141B4D"
+        android:layout_marginTop="10dp"
+        android:text="SKTS"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnSKP"
+        android:layout_alignStart="@+id/btnSKP" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="#141B4D"
+        android:text="SKP"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnSKP"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/btnSKTS"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
